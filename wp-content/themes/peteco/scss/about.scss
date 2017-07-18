@@ -1,0 +1,55 @@
+@import "colors";
+
+.about-page {
+
+	.content {
+		justify-content:space-between;	
+	}
+
+	h1 {
+		margin-bottom:40px;
+		margin-top:0;
+	}
+
+	.single-about-section {
+		margin-bottom:60px;
+		width:30%;
+
+		h2 {
+			// background: $darkGray;
+			// color:white;
+			border-bottom:3px solid $lightGray;
+			padding-bottom:10px;
+		}
+
+		p {
+
+		}
+
+		.about-section-content {
+			
+		}
+	}
+}
+
+
+
+// 1024px And Below
+@media screen and (max-width: 1024px){
+
+	.about-page {
+		
+	}
+}
+
+
+// 767px And Below
+@media screen and (max-width: 767px){
+
+	.about-page {
+
+		.single-about-section {
+			width:100%;
+		}
+	}
+} //End 767px

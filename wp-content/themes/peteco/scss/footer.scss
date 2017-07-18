@@ -1,0 +1,54 @@
+@import "colors";
+
+.footer {
+	position: relative;
+	background-color: $darkGray;
+	color:$midGray;
+	font-size: 14px;
+
+	.content {
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+
+	
+
+	.your-email {
+		width:100%;
+
+		p {
+			margin:0;
+		}
+
+	a {
+		color:$lightGray;
+		transition: all .3s ease-in-out;
+		text-decoration: underline;
+
+			&:hover {
+				color:white;
+			}
+		}
+	}
+}
+
+// 1024px And Below
+@media screen and (max-width: 1023px){
+
+	.footer {
+		
+	}
+}
+
+
+// 767px And Below
+@media screen and (max-width: 767px){
+
+	.footer {
+		
+	}
+}
+
+
+
+
